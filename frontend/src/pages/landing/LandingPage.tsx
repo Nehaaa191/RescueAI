@@ -20,9 +20,7 @@ export default function LandingPage() {
 
       {/* Hero Section */}
       <main className="flex-1 flex flex-col items-center justify-center text-center px-6 py-12 md:py-24 max-w-5xl mx-auto">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-status-critical/30 bg-status-critical/10 text-status-critical text-xs font-mono mb-8 uppercase tracking-widest animate-pulse">
-          <AlertTriangle size={14} /> HackHazards 2026 Submission
-        </div>
+
 
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
           Next-Generation <span className="bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">Disaster Intelligence</span>
@@ -100,7 +98,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer className="border-t border-border py-6 px-6 text-center text-xs text-text-muted bg-surface">
-        <p>© 2026 RescueAI Platform. Prepared for HackHazards 2026. Codebase is proprietary & sandbox licensed.</p>
+        <p>© 2026 RescueAI Platform. Codebase is proprietary & sandbox licensed.</p>
       </footer>
     </div>
   );

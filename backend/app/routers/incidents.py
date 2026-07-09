@@ -21,6 +21,11 @@ def clean_doc(doc: dict) -> dict:
         doc["duplicate_cluster_id"] = str(doc["duplicate_cluster_id"])
     if "assigned_team_id" in doc and doc["assigned_team_id"]:
         doc["assigned_team_id"] = str(doc["assigned_team_id"])
+        
+    for key, value in doc.items():
+        if isinstance(value, datetime):
+            doc[key] = value.isoformat()
+            
     return doc
 
 @router.get("/reports", response_model=List[ReportResponse])
