@@ -71,29 +71,7 @@ export default function LandingPage() {
           </div>
         </div>
 
-        {/* Feature Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full text-left border-t border-border/50 pt-16">
-          <div>
-            <div className="font-mono text-2xl font-bold text-primary mb-1">01. NLP</div>
-            <div className="font-semibold text-sm mb-1">Text Extraction</div>
-            <p className="text-text-muted text-xs">Zero-shot classification & keyword-entity parser</p>
-          </div>
-          <div>
-            <div className="font-mono text-2xl font-bold text-status-high mb-1">02. CV</div>
-            <div className="font-semibold text-sm mb-1">Image Verification</div>
-            <p className="text-text-muted text-xs">YOLOv8 nano detection + pixel color heuristics</p>
-          </div>
-          <div>
-            <div className="font-mono text-2xl font-bold text-status-critical mb-1">03. XGB</div>
-            <div className="font-semibold text-sm mb-1">SHAP Priority</div>
-            <p className="text-text-muted text-xs">Explainable model-driven incident queues</p>
-          </div>
-          <div>
-            <div className="font-mono text-2xl font-bold text-status-low mb-1">04. DEDUP</div>
-            <div className="font-semibold text-sm mb-1">Cluster Detection</div>
-            <p className="text-text-muted text-xs">Sentence embedding proximity checks</p>
-          </div>
-        </div>
+
       </main>
 
       {/* Footer */}
